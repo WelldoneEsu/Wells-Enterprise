@@ -1,0 +1,246 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+@media(max-width:1100px){
+    html{
+        font-size: 50%;
+    }
+
+}
+@media(max-width:780px){
+    html{
+        font-size: 50%;
+    }
+    
+}
+.top{
+    background: url("back-img.png")no-repeat center center/cover;
+    position:relative;
+    background-color:  rgba(0, 0, 0, 0.514);
+    opacity: 1.5;
+    height: 100vh;
+}
+.logo{
+    top: 2.5rem;
+    position: absolute;
+    left: 3.125rem;
+}
+form{
+    top:5rem;
+    position: absolute;
+    left:20rem;
+    height:10vh;
+
+}
+input{
+    width:24vw;
+    height: 7vh;
+    border-style: none;
+    border-radius: 0.56rem;
+    font-weight: bolder;
+}
+.search{
+    top:5rem;
+    background:red;
+    position:absolute;
+    border-radius: 0.56rem;
+    left: 50.3rem;
+    width:4vw;
+    height: 7vh;
+    padding:12px;
+
+}
+nav{
+    top: 6rem;
+    position:absolute;
+    right:30rem;
+    font-size:2rem;
+
+}
+
+ul{
+
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+li{
+    float:right;
+}
+
+li a{
+    padding:1.25rem;
+    color:black;
+    display:inline;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.login a{ 
+    position:absolute;
+    top:5rem;
+    right:20rem;
+    font-weight: bolder;
+    border: 1px solid red;
+    text-decoration: none;
+    color: black;
+    border-radius: 1rem;
+    padding: 0.98rem
+}
+.signup a{
+    position:absolute;
+    top:5rem;
+    right:8rem;
+    background: red;
+    border-radius: 1rem;
+    text-decoration: none;
+    color:black;
+    padding: 0.98rem
+}
+.section2{
+    position: relative;
+    height: 120vh;
+
+}
+.recent{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.4rem;
+}
+.checked{
+    color:red;
+}
+.alley {
+    top:8.25rem;
+    position:absolute;
+    left:7rem;
+    
+}
+p{
+    font-size:1.65rem;
+}
+.read{
+    cursor: pointer;
+    text-decoration: none;
+}
+.dae {
+    top:8.25rem;
+    position:absolute;
+    left:45rem;
+}
+.nar {
+    top:8.25rem;
+    position:absolute;
+    right:7rem;
+}
+.tak {
+    top:40rem;
+    position:absolute;
+    left:7rem;
+}
+.udon {
+    top:40rem;
+    position:absolute;
+    left:45rem;
+}
+.the {
+    top:40rem;
+    position:absolute;
+    right:6rem;
+}
+.acti{
+    top:72rem;
+    position:absolute;
+    left:53rem;
+    font-size: 2rem;
+}
+.section2{
+    position:relative;
+    height: 100vh;
+}
+.cate{
+    position:absolute;
+    top:22rem;
+    left:55rem;
+    font-weight: bolder;
+    font-size: 2.4rem;
+}
+.food{
+    top:30rem;
+    left:20rem;
+    text-align: center;
+    position:absolute;
+}
+.sho{
+    top:30rem;
+    left:47rem;
+    position:absolute;
+    text-align: center;
+}
+.ca{
+    text-decoration: none;
+    color:black;
+}
+.nig{
+    top:30rem;
+    left:71rem;
+    position:absolute;
+    text-align: center;
+}
+.act{
+    top:30rem;
+    right:20rem;
+    text-align: center;
+    position:absolute;
+}
+.beau{
+    top:45rem;
+    left:19rem;
+    text-align: center;
+    position:absolute;
+}
+.auto{
+    top:45rem;
+    left:46rem;
+    position:absolute;
+    text-align: center;
+}
+.home{
+    top:45rem;
+    left:70rem;
+    position:absolute;
+    text-align: center;
+}
+.mo{
+    top:45rem;
+    right:21rem;
+    text-align: center;
+    position:absolute;
+}
+footer{
+    background: whitesmoke;
+    position:relative;
+    height:50vh;
+}
+table{
+    position:absolute;
+    top:3.124rem;
+    width:100%;
+    font-size: 1.67rem;
+    left:10rem;
+    border-collapse: collapse;
+}
+td, th{
+    text-align: left;
+    padding:0.5rem;
+}
+.last{
+    position:absolute;
+    top:23rem;
+    left:10rem;
+}
