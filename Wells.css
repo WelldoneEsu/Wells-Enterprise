@@ -5,24 +5,15 @@
 }
 html{
     font-size: 62.5%;
-}
-@media(max-width:1100px){
-    html{
-        font-size: 50%;
-    }
 
-}
-@media(max-width:780px){
-    html{
-        font-size: 50%;
-    }
     
 }
 .top{
     background: url("back-img.png")no-repeat center center/cover;
     position:relative;
     background-color:  rgba(0, 0, 0, 0.514);
-    opacity: 1.5;
+    opacity: 0.8;
+   
     height: 100vh;
 }
 .logo{
@@ -76,8 +67,8 @@ li{
 
 li a{
     padding:1.25rem;
-    color:black;
     display:inline;
+    color: black;
     font-weight: bolder;
     text-decoration: none;
 }
@@ -89,6 +80,7 @@ li a{
     border: 1px solid red;
     text-decoration: none;
     color: black;
+    background: red;
     border-radius: 1rem;
     padding: 0.98rem
 }
@@ -104,7 +96,7 @@ li a{
 }
 .section2{
     position: relative;
-    height: 120vh;
+    height: 90vh;
 
 }
 .recent{
@@ -118,7 +110,7 @@ li a{
 .alley {
     top:8.25rem;
     position:absolute;
-    left:7rem;
+    left:11rem;
     
 }
 p{
@@ -131,27 +123,27 @@ p{
 .dae {
     top:8.25rem;
     position:absolute;
-    left:45rem;
+    left:53rem;
 }
 .nar {
     top:8.25rem;
     position:absolute;
-    right:7rem;
+ left:95rem;
 }
 .tak {
     top:40rem;
     position:absolute;
-    left:7rem;
+    left:11rem;
 }
 .udon {
     top:40rem;
     position:absolute;
-    left:45rem;
+    left:53rem;
 }
 .the {
     top:40rem;
     position:absolute;
-    right:6rem;
+    left:95rem;
 }
 .acti{
     top:72rem;
@@ -159,7 +151,7 @@ p{
     left:53rem;
     font-size: 2rem;
 }
-.section2{
+.section3{
     position:relative;
     height: 100vh;
 }
@@ -194,7 +186,7 @@ p{
 }
 .act{
     top:30rem;
-    right:20rem;
+    left:95rem;
     text-align: center;
     position:absolute;
 }
@@ -218,7 +210,7 @@ p{
 }
 .mo{
     top:45rem;
-    right:21rem;
+    left:95rem;
     text-align: center;
     position:absolute;
 }
@@ -243,4 +235,145 @@ td, th{
     position:absolute;
     top:23rem;
     left:10rem;
+}
+@media(max-width:780px){
+    body{
+        overflow-x: hidden;
+    }
+    form{
+        top:22rem;
+        left:3rem;
+        position: relative;
+        
+    }
+    .search{
+        width:10vw;
+       left:35rem;
+        top:22rem;
+    }
+    ul{
+        position: relative;
+        top:6rem;
+        text-align: center;
+        left:25rem;
+        gap:16rem;
+        display: flex;
+       
+      
+    }
+    input{
+        width:76vw;
+    }
+    .section2{
+        height:310vh;
+    }
+    
+    .the{
+        left:5rem;
+        top:100rem;
+    }
+    .udon{
+        top:70rem;
+        position:absolute;
+        left:5rem;
+       
+    }.alley{
+        left:5rem;
+    }
+    .nar {
+        top:135rem;
+        position:absolute;
+       left:5rem;
+    }
+    .dae{
+        left:5rem;
+        top:170rem;
+    }
+    .acti{
+        top:200rem;
+        position:absolute;
+        left:5rem;
+       
+    }
+    
+    .tak {
+        top:40rem;
+        position:absolute;
+        left:5rem;
+    }
+    .alley img,.dae img,.nar img,.tak img,.udon img,.the img{
+        width:50vw;
+    }
+    .section3{
+        height:120vh;
+    }
+    .cate{
+     left:37%;
+    }
+    .food{
+    left:7rem;
+    }
+    .sho{
+        left:30rem;
+    }
+    .act,.mo{
+        left:20rem;
+    }
+    .nig{
+        left:7rem;
+        top:45rem;
+    }
+    .beau{
+        left:32rem;
+    }
+    .auto{
+        top:60rem;
+        left:7rem;
+    }
+    .home{
+        left:30rem;
+        top:60rem;
+    }
+    footer{
+        height:58vh;
+    }
+    table{
+        left:2rem;
+        width:90vw;
+    }
+    .last{
+        top:30rem;
+        left:2rem;
+    }
+
+}
+
+@media  (min-width:768px) and (max-width: 1024px){
+body{
+   overflow-x: hidden;
+}
+.section2{
+    height: 170vh;
+}
+.nar{
+    top:80rem;
+    left:5rem;
+}
+.the{
+    top:80rem;
+    left:53rem;
+}
+.acti{
+    top:113rem;
+}.section3{
+    height: 140vh;
+}
+.act{
+    top:60rem;
+    left:20rem;
+}
+.mo{
+    top:60rem;
+    left:47rem;   
+}
 }
